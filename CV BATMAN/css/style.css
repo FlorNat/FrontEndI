@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    text-align: center;
+    background-color: #E5E5E5;
+}
+
+
+header h1{
+    background-color: #C4C4C4;
+    text-transform: uppercase;
+}
+
+main section h3{
+    background-color: #C4C4C4;
+    text-transform: uppercase;
+}
+
+section ul li span{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background-color: #005677;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
