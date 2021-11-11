@@ -1,0 +1,42 @@
+/*body*/
+
+/*header*/
+
+.indice{
+    background-color: #222222;
+    font-size: 10px;
+    font-family: Roboto;
+    color: white;
+    line-height: 11.72px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.encabezado{
+    background-color: #F0A83E;
+}
+.nav-menu{
+    a: center;
+}
+
+/*main*/
+
+
+h1{
+    color:#3C2313;
+    position: absolute;
+    width: 406px;
+    height: 47px;
+    left: 309px;
+    top: 586px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+} 
+
+/*footer*/
+footer{
+    background-color: #3C2313;
+}
