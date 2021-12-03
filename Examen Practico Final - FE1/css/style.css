@@ -1,0 +1,493 @@
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&display=swap" rel="stylesheet">
+
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+button{
+    background-color: #F3603B;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 13.18px;
+    font-style: medium;
+    padding: 12.5px 30.5px ;
+    border: none;
+    box-shadow: -4px 4px 9px 3px rgba(0, 0, 0, 0.25);
+    }
+ 
+ /*header*/
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 165px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    font-weight: 500;
+    color: #242E52;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ /*main*/
+
+h3 {
+    font-weight: 700;
+    color:#232C50;
+    font-style: bold;
+    font-size: 58px;
+    text-align: left;
+
+}
+
+h4 {
+    font-weight: 700;
+    font-style: bold;
+    color:#232851;
+    font-size: 36px;
+}
+
+h5 {
+    font-weight: 500;
+    font-style: medium;
+    font-style: bold;
+    color:#000000;
+    font-size: 16.56px;
+}
+
+.h6{
+    height: 43px;
+    line-height: 43px;
+    font-weight: 700;
+    font-style: bold;
+    color:#323851;
+    font-size: 15px;
+}
+
+ /*Primer bloque*/
+main section.primerbloque{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.columna-products, .graficos {
+    width: 40%;
+}
+
+ /*Segundo bloque*/
+
+ main section.segundo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+main section .segundacolumna article .text{
+    font-weight: 500;
+    font-style: normal;
+    color:#B3B2B7;   
+    font-size: 16.3px;
+}
+
+.columna-manage, .segundacolumna {
+    width: 40%;
+}
+
+.articulo-columna{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.texto-articulo {
+    margin-left: 10px;
+}
+
+ main section.segundo article {
+    font-weight: 500;
+    font-style: normal;
+    color:#B3B2B7;   
+    font-size: 16.3px;
+}
+
+/*Tercer bloque*/
+
+main section.tercer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ main section.tercer div{
+    display: flex;  
+    padding: 71px;
+
+}
+
+main section.tercer h5{
+    font-weight: 700;
+    font-style: normal;
+    font-style: bold;
+    color:#242E53;
+    font-size: 39.21px;
+    text-align: center;
+}
+
+main section.tercer div article{
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 200px;
+} 
+  
+main section.tercer article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+main section.tercer div article img{
+    height: 70px;
+    width: 70px;    
+    display: flex;
+    position: absolute;
+    bottom: 85%;
+}
+
+main section.tercer h4{
+    font-size: 16.07px;
+    position: absolute;
+    bottom: 60%;
+}
+
+main section.tercer article p{
+    font-weight: 500;
+    font-style: normal;
+    color:#B9B9C1;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+}
+
+
+main section.tercer button{
+    display: flex;
+    margin-bottom: 180px;
+}
+
+  /*Ultimo bloque*/
+  
+.footermain{
+    background-color:#F3613C;
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 165px;
+}
+section.footermain span{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-style: bold;
+} 
+
+.footermain button{
+    background-color: #FFFFFF;
+    color:#F3603B;
+    border-radius: 25px;
+    width: 134px;
+    height: 44px;
+    border: none;
+    box-shadow: -4px 4px 9px 3px rgba(0, 0, 0, 0.25);
+    }   
+
+  
+
+ /*footer*/
+footer{
+    background-color:#1E1E26;
+    padding: 65px 165px;
+    display: flex;
+    justify-content: space-between;
+    height: 157px;
+}
+
+
+footer div.footerc1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer div.footerc1 div{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.footerc2{
+    display: flex;
+    width: 50%;
+}
+
+footer div.footerc2 > div {
+    width: 50%;
+    padding: 10px; 
+}
+
+footer div.footerc2 > div:first-child {
+    margin-right: 20px;
+}
+
+footer div.footerc2 nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+footer div.footerc2 nav ul li a{
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    color:#FFFFFF;
+}
+
+footer div.footerc3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer div.footerc3 p{
+    font-size: 12.5px;
+    color: #8C8C94;
+    text-align: end;
+}
+
+footer div.footerc3 form input {
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+}
+
+footer div.footerc3 form input:nth-child(1){
+    background-color: #FFFFFF;
+    font-weight: 600;
+    color: #A0A0A0;
+    font-style: normal;
+    font-size: 13.18px;
+    padding:  10px 48px 12.5px 12.5px;
+}
+
+footer div.footerc3 form input:nth-child(2){
+    background-color: #F3603B;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 13.18px;
+    padding: 11.5px 22.5px;
+}
+
+
+ /*Responsive*/
+ @media (max-width: 1440px) {
+
+    .iconoresp{
+        display: none;
+    }
+
+    div.footerc1 p{
+        display: none;
+    }
+ }
+
+ @media (max-width: 375px) {
+   /*header*/
+    header{
+        margin-bottom: 45px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5%;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header button {
+        display: none;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .iconoresp{
+        display: block;
+    }
+
+    div.footerc1 p{
+        display: none;
+    }
+
+    /*main*/
+
+    main section.primerbloque {
+        padding: 0px;
+    }
+
+    .columna-products, .graficos {
+        width: 95%;
+    }
+
+    .primerbloque{
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }  
+    
+    .primerbloque div h3{
+        text-align: center;        
+    }
+    
+    .primerbloque div {
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 18px;
+        color:#B3B2B7;
+        text-align: center;
+        text-justify: distribute-all-lines;
+        line-height: 35px;
+        padding: 0px 20px;
+    }
+
+    .h6{
+        font-size: 15px;
+    }
+
+    main section.segundo{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    main section.segundo div h4{
+        padding: 0px;
+        text-align: center;
+    }
+
+    main section.segundo div h5{
+        padding: 0px;
+        text-align: center;
+    }
+
+    .columna-manage, .segundacolumna {
+        width: 95%;
+    }
+
+    .text{
+        padding-right: 18px;
+        line-height: 20px;
+        justify-content: left;
+    }
+
+    main section.tercer div{
+        padding: 0px;
+    }
+
+    main section.tercer h5{
+        padding: 0px 12px;
+    }
+
+    .testimonio:nth-child(1){
+        display: none;
+    }
+
+    .testimonio:nth-child(2) {
+        height: 250px;
+        width: 325px;
+        padding: 0px 12px;
+    }
+
+    .testimonio:nth-child(3){
+        display: none;
+    }
+
+    main section.tercer article p{
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    main section.tercer button{
+        margin: 50px;
+    }
+
+    .footermain{
+        flex-direction: column;  
+        justify-content: space-around;      
+        padding: 10px 15px;
+        height: 250px;
+        align-items: center;
+        text-align: center;
+    }
+
+   /*footer*/
+    footer{
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+    
+    div.footerc3{
+        padding: 20px;
+    }
+
+    div.footerc3 p{
+        display: none;
+    } 
+
+    div.footerc2 div nav{
+        width: 200px;
+        padding: 10px;
+    } 
+
+    div.footerc1 p{
+        order: 3;
+    }
+
+    div.footerc1 img{
+        order: 2;
+        width: 45%;
+        padding: 50px 90px;
+    }
+    div.footerc1 div{
+        order: 1;
+        width: 250px;
+        padding: 0px 50px;
+    }
+
+    div.footerc1 p{
+        display: block;
+        font-weight: 500;
+        font-style: normal;
+        color:#B9B9C1;
+        font-size: 14px;
+        text-align: center;
+    }
+   
+}
